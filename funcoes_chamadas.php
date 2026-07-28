@@ -1,5 +1,7 @@
 <?php
 
+require("./funcoes_criadas.php");
+
 //Chamada das funções que eu criei
 $resultado = 1250.55;
 echo (formatarMoedaBr($resultado));
